@@ -1,5 +1,7 @@
 /* Style sheet from index.html and gtlf.html */
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 
 html,
 body {
@@ -33,6 +35,7 @@ canvas {
 
 h1 {
   font-style: bold;
+  font-size: 50px;;
   color: #05F2AF;
   font-family: 'Bungee Shade', cursive;
   max-width: 75%;
@@ -42,8 +45,9 @@ h1 {
 }
 
 h2 {
-  color: #D9525E;
+  color: #f04ebd;
   max-width: 75%;
+  font-family: 'Press Start 2P', cursive;
   text-align: center;
   margin: auto;
   padding-bottom: 20px;
@@ -58,6 +62,7 @@ p {
   padding-bottom: 20px;
   line-height: 150%;
   color:white;
+  font-family: 'Press Start 2P', cursive;
   text-align:left;
 }
 
