@@ -8,7 +8,6 @@ Unidentified figure has landed on the planet.
 
 Who is it?
 
-It? She? He? They?
 
 
 ## Live Site
