@@ -21,6 +21,8 @@ Professor Chelsea Thompto's code for importing Three.js, environment and base: h
 
 button generator:https://www.bestcssbuttongenerator.com/
 
+Three.js library: https://threejs.org/
+
 water shader: https://github.com/mrdoob/three.js/blob/master/examples/webgl_shaders_ocean.html
 
 Font: Googlefont
