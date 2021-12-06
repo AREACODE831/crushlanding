@@ -4,7 +4,7 @@ Crush Landing
 
 ## Overview
 
-Unidentified figure has landed on the earth.
+Unidentified figure has landed on the planet.
 
 Who is it?
 
