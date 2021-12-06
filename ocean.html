@@ -40,6 +40,8 @@
 			    gltf.scene.traverse(function(child) {
 			      if (child.isMesh) {
 			        //child.material = newMaterial;
+							renderer.outputEncoding = THREE.sRGBEncoding;
+
 			      }
 			    });
 			    // set position and scale
@@ -59,8 +61,13 @@
 			const loader2 = new GLTFLoader().load(
 				"./assets/flower.glb",
 				function(gltf) {
-					// Scan loaded model for mesh and apply defined material if mesh is present
+				gltf.scene.traverse(function(child) {
+					if (child.isMesh) {
+						//child.material = newMaterial;
+						renderer.outputEncoding = THREE.sRGBEncoding;
 
+					}
+				});
 					// set position and scale
 					mesh2 = gltf.scene;
 					mesh2.position.set(200, 0, 0);
@@ -99,8 +106,13 @@
 			const loader6 = new GLTFLoader().load(
 				"./assets/flower.glb",
 				function(gltf) {
-					// Scan loaded model for mesh and apply defined material if mesh is present
+				gltf.scene.traverse(function(child) {
+					if (child.isMesh) {
+						//child.material = newMaterial;
+						renderer.outputEncoding = THREE.sRGBEncoding;
 
+					}
+				});
 					// set position and scale
 					mesh6 = gltf.scene;
 					mesh6.position.set(0, -0.5, -120);
@@ -119,8 +131,13 @@
 			const loader4 = new GLTFLoader().load(
 				"./assets/building.glb",
 				function(gltf) {
-					// Scan loaded model for mesh and apply defined material if mesh is present
+				gltf.scene.traverse(function(child) {
+					if (child.isMesh) {
+						//child.material = newMaterial;
+						renderer.outputEncoding = THREE.sRGBEncoding;
 
+					}
+				});
 					// set position and scale7
 					mesh4 = gltf.scene;
 					mesh4.position.set(-500, -20, 50);
@@ -139,8 +156,13 @@
 			const loader5 = new GLTFLoader().load(
 				"./assets/bigtreepurple.glb",
 				function(gltf) {
-					// Scan loaded model for mesh and apply defined material if mesh is present
+				gltf.scene.traverse(function(child) {
+					if (child.isMesh) {
+						//child.material = newMaterial;
+						renderer.outputEncoding = THREE.sRGBEncoding;
 
+					}
+				});
 					// set position and scale
 					mesh5 = gltf.scene;
 					mesh5.position.set(-160, -0.5, 50);
@@ -159,8 +181,13 @@
 			const loader7 = new GLTFLoader().load(
 				"./assets/ufo.glb",
 				function(gltf) {
-					// Scan loaded model for mesh and apply defined material if mesh is present
+				gltf.scene.traverse(function(child) {
+					if (child.isMesh) {
+						//child.material = newMaterial;
+						renderer.outputEncoding = THREE.sRGBEncoding;
 
+					}
+				});
 					// set position and scale
 					mesh7 = gltf.scene;
 					mesh7.position.set(-20, -1, 50);
@@ -178,8 +205,13 @@
 			const loader8 = new GLTFLoader().load(
 				"./assets/building.glb",
 				function(gltf) {
-					// Scan loaded model for mesh and apply defined material if mesh is present
+				gltf.scene.traverse(function(child) {
+					if (child.isMesh) {
+						//child.material = newMaterial;
+						renderer.outputEncoding = THREE.sRGBEncoding;
 
+					}
+				});
 					// set position and scale
 					mesh8 = gltf.scene;
 					mesh8.position.set(-180, -180, 200);
