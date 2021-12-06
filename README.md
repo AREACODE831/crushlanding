@@ -1,6 +1,6 @@
 # Final_Project_Soovin Choi_ART109
 
-Crush Landing
+Crash Landing
 
 ## Overview
 
