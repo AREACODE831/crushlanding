@@ -28,6 +28,7 @@ canvas {
 
 h1 {
   font-style: bold;
+  font-size: 50px;;
   color: #05F2AF;
   font-family: 'Bungee Shade', cursive;
   max-width: 75%;
@@ -37,12 +38,14 @@ h1 {
 }
 
 h2 {
-  color: #D9525E;
+  color: #f04ebd;
   max-width: 75%;
+  font-family: 'Press Start 2P', cursive;
   text-align: center;
   margin: auto;
   padding-bottom: 20px;
 }
+
 
 p {
   width: 50%;
@@ -53,8 +56,10 @@ p {
   padding-bottom: 20px;
   line-height: 150%;
   color:white;
+  font-family: 'Press Start 2P', cursive;
   text-align:left;
 }
+
 
 p.mid {
   padding-left: 0%;
