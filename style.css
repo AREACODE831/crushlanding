@@ -43,6 +43,7 @@ h2 {
   font-family: 'Press Start 2P', cursive;
   text-align: center;
   margin: auto;
+  font-size:10px;
   padding-bottom: 20px;
 }
 
@@ -56,6 +57,7 @@ p {
   padding-bottom: 20px;
   line-height: 150%;
   color:white;
+  font-size: 10px;
   font-family: 'Press Start 2P', cursive;
   text-align:left;
 }
