@@ -26,3 +26,5 @@ Three.js library: https://threejs.org/
 water shader: https://github.com/mrdoob/three.js/blob/master/examples/webgl_shaders_ocean.html
 
 Font: Googlefont
+
+Intro star: https://redstapler.co/space-warp-background-effect-three-js/
