@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: bold;
+  font-size: 50px;;
+  color: #5d4cd0;
+  font-family: 'Bungee Shade', cursive;
+}
+
+
+canvas {
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.pp{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  width: 800px;
+  letter-spacing: 7px;
+}
+.text-box {
+  font-size: 60px;
+  font-family: 'Bungee Shade', cursive;
+  letter-spacing: 7px;
+  word-spacing: 12px;
+  text-transform: uppercase;
+  color:rgb(238, 238, 238);
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: row;
+}
+.button {
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive;
+
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px;
+  margin-left:20px;
+  margin-right:20px;
+  word-spacing: normal;
+  letter-spacing: 5px;
+  border: 1px solid white;
+  background: black;
+  cursor: pointer;
+}
