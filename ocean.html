@@ -27,7 +27,7 @@
 			import {FontLoader } from "./src/FontLoader.js";
 			let container, stats;
 			let camera, scene, renderer;
-			let controls, water, sun, mesh, mesh2, mesh3, mesh4, mesh5, mesh6, mesh7, mesh8, mesh9, mesh10, mesh11, mesh12, mesh13, mesh14, mesh15, mesh16;
+			let controls, water, sun, mesh, mesh2, mesh3, mesh4, mesh5, mesh6, mesh7, mesh8, mesh9, mesh10, mesh11, mesh12, mesh13, mesh14, mesh15, mesh16, mesh17, mesh18, mesh19, mesh20;
 
 			init();
 			animate();
@@ -145,6 +145,54 @@
 					mesh10.scale.set(5, 5, 5 );
 					// Add model to scene
 					scene.add(mesh10);
+
+				},
+				undefined,
+				function(error) {
+					console.error(error);
+				}
+			);
+			const loader19 = new GLTFLoader().load(
+				"./assets/flower.glb",
+				function(gltf) {
+				gltf.scene.traverse(function(child) {
+					if (child.isMesh) {
+						//child.material = newMaterial;
+						renderer.outputEncoding = THREE.sRGBEncoding;
+
+					}
+				});
+					// set position and scale
+					mesh19 = gltf.scene;
+					mesh19.position.set(100, -5, 120);
+					mesh19.rotation.set(0, 0, 0);
+					mesh19.scale.set(20, 20, 20 );
+					// Add model to scene
+					scene.add(mesh19);
+
+				},
+				undefined,
+				function(error) {
+					console.error(error);
+				}
+			);
+			const loader20 = new GLTFLoader().load(
+				"./assets/flower.glb",
+				function(gltf) {
+				gltf.scene.traverse(function(child) {
+					if (child.isMesh) {
+						//child.material = newMaterial;
+						renderer.outputEncoding = THREE.sRGBEncoding;
+
+					}
+				});
+					// set position and scale
+					mesh20 = gltf.scene;
+					mesh20.position.set(-100, -0.5, 300);
+					mesh20.rotation.set(0, 0, 0);
+					mesh20.scale.set(6, 6, 6 );
+					// Add model to scene
+					scene.add(mesh20);
 
 				},
 				undefined,
@@ -393,6 +441,56 @@
 					mesh15.scale.set(100, 100, 100);
 					// Add model to scene
 					scene.add(mesh15);
+
+				},
+				undefined,
+				function(error) {
+					console.error(error);
+				}
+			);
+
+			const loader17 = new GLTFLoader().load(
+				"./assets/cloud2.glb",
+				function(gltf) {
+				gltf.scene.traverse(function(child) {
+					if (child.isMesh) {
+						//child.material = newMaterial;
+						renderer.outputEncoding = THREE.sRGBEncoding;
+
+					}
+				});
+					// set position and scale
+					mesh17 = gltf.scene;
+					mesh17.position.set(-2000, 600, -600);
+					mesh17.rotation.set(0, 0, 0);
+					mesh17.scale.set(80, 80, 80);
+					// Add model to scene
+					scene.add(mesh17);
+
+				},
+				undefined,
+				function(error) {
+					console.error(error);
+				}
+			);
+
+			const loader18 = new GLTFLoader().load(
+				"./assets/cloud2.glb",
+				function(gltf) {
+				gltf.scene.traverse(function(child) {
+					if (child.isMesh) {
+						//child.material = newMaterial;
+						renderer.outputEncoding = THREE.sRGBEncoding;
+
+					}
+				});
+					// set position and scale
+					mesh18 = gltf.scene;
+					mesh18.position.set(-1000, 800, -900);
+					mesh18.rotation.set(0, 0, 0);
+					mesh18.scale.set(50, 50, 50);
+					// Add model to scene
+					scene.add(mesh18);
 
 				},
 				undefined,
