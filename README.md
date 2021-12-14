@@ -17,6 +17,9 @@ The last project using the Three.js opportunity opened my eyes to the website's 
 The lonely, empty but filled with cultural confusion and super-Korean features of myself are depicted as traditional Korean shoes, Korean traditional accessories, airplane, and lotus. 
 
 
+![main5](https://user-images.githubusercontent.com/58690808/146084238-57357b52-d4a9-4627-959c-a5e23fdf4ac5.jpg)
+
+
 
 ## Live Site
 
@@ -36,3 +39,4 @@ water shader: https://github.com/mrdoob/three.js/blob/master/examples/webgl_shad
 Font: Googlefont
 
 Intro star: https://redstapler.co/space-warp-background-effect-three-js/
+
