@@ -12,8 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   font-style: bold;
-  font-size: 50px;;
-  color: #5d4cd0;
+  font-size: 50px;
   font-family: 'Bungee Shade', cursive;
 }
 
@@ -24,19 +23,22 @@ canvas {
   left:0;
   z-index: -1;
 }
-.pp{
+
+/* .pp{
   font-family: 'Press Start 2P', cursive;
   font-size: 10px;
   width: 800px;
   letter-spacing: 7px;
-}
+} */
+
 .text-box {
   font-size: 60px;
   font-family: 'Bungee Shade', cursive;
+  color: #f04ebd;
   letter-spacing: 7px;
   word-spacing: 12px;
   text-transform: uppercase;
-  color:rgb(238, 238, 238);
+
 }
 .button-wrapper {
   display: flex;
